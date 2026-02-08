@@ -29,7 +29,7 @@ const initialPrescriptions = [
   { id: 2, customerId: 2, customerName: 'Jane Smith', date: '2026-02-01', doctor: 'Dr. Robert Chen', items: [{ itemId: 7, itemName: 'Insulin Injection', quantity: 10, dosage: 'As directed' }], status: 'Active', refillsRemaining: 5 },
 ];
 
-const PharmacyManagementSystem = () => {
+const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loginForm, setLoginForm] = useState({ username: '', password: '' });
   const [loginError, setLoginError] = useState('');
@@ -2062,4 +2062,4 @@ const PharmacyManagementSystem = () => {
   );
 };
 
-export default PharmacyManagementSystem;
+export default App;
